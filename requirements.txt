@@ -1,0 +1,27 @@
+# ──────────────────────────────────────────────────────
+#  DrugGeneExplorer v4.0 — Scientific Research Tool
+#  Python 3.8+ required
+# ──────────────────────────────────────────────────────
+
+# ──────────────────────────────────────────────────────
+#  CORE DEPENDENCIES (REQUIRED)
+# ──────────────────────────────────────────────────────
+requests>=2.28.0          # HTTP requests to scientific APIs (DGIdb, PubChem, ChEMBL, OpenFDA, etc.)
+rich>=13.0.0              # Terminal UI: colored tables, panels, formatted output
+
+# ──────────────────────────────────────────────────────
+#  OPTIONAL (STRONGLY RECOMMENDED)
+# ──────────────────────────────────────────────────────
+# Enables 20+ language UI support (Italian, Spanish, French, German, etc.)
+# Without it: uses built-in English-only dictionary fallback
+deep-translator>=1.11.0
+
+# ──────────────────────────────────────────────────────
+#  DEVELOPMENT DEPENDENCIES (Optional — for contributors)
+# ──────────────────────────────────────────────────────
+# Uncomment if you're contributing to the project:
+# pytest>=7.0.0            # Testing framework
+# black>=22.0.0            # Code formatter (PEP 8 compliance)
+# flake8>=4.0.0            # Linter
+# mypy>=0.990              # Type checker
+# pytest-cov>=3.0.0        # Code coverage reporting
